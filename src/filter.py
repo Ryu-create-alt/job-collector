@@ -165,15 +165,23 @@ def parse_experience_years(text: str) -> int:
     patterns = [
         r"実務経験\s*(\d+)\s*年以上",
         r"業務経験\s*(\d+)\s*年以上",
+        r"職務経験\s*(\d+)\s*年以上",
         r"経験\s*(\d+)\s*年以上",
-        r"(\d+)\s*年以上\s*(?:の)?\s*(?:実務|業務)?経験",
+        r"(\d+)\s*年以上\s*(?:の)?\s*(?:実務|業務|職務)?経験",
         r"経験年数\s*[:：]?\s*(\d+)\s*年以上",
+        r"(\d+)\s*年以上のご?経験",
+        r"(\d+)\s*年以上経験(?:者)?",
+        r"(\d+)\s*年以上の(?:実務|業務|it|ネットワーク|インフラ|se|システム|エンジニア)",
+        r"必須.{0,20}?(\d+)\s*年以上",
+        r"(\d+)\s*年以上.{0,10}?(?:必須|required)",
     ]
     years = []
     for pattern in patterns:
         for m in re.finditer(pattern, cleaned):
             try:
-                years.append(int(m.group(1)))
+                y = int(m.group(1))
+                if 1 <= y <= 20:  # 妥当範囲チェック
+                    years.append(y)
             except ValueError:
                 pass
     return min(years) if years else 0

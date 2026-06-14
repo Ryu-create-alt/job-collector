@@ -124,6 +124,18 @@ st.markdown("""
 }
 .apply-btn:hover    { background: #1d4ed8; }
 .apply-btn.disabled { background: #94a3b8; pointer-events: none; }
+
+.desc-preview {
+    font-size: 13px;
+    color: #4b5563;
+    line-height: 1.65;
+    padding: 10px 13px;
+    background: #f8fafc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -273,6 +285,7 @@ else:
 
         btn_cls   = "apply-btn" if url != "#" else "apply-btn disabled"
         btn_label = "求人ページを開く →" if url != "#" else "URL未取得"
+        desc      = _e(row.get('description') or "")
 
         st.markdown(f"""
 <div class="{card_cls}">
@@ -282,6 +295,7 @@ else:
   </div>
   <div class="{ttl_cls}">{_e(row['title'])}</div>
   <div class="badges">{badges}</div>
+  <div class="desc-preview">{desc}</div>
   <div class="card-footer">
     <span class="location">📍 {loc}</span>
     <a href="{url}" target="_blank" class="{btn_cls}">{btn_label}</a>
@@ -289,13 +303,5 @@ else:
 </div>
 """, unsafe_allow_html=True)
 
-        with st.expander("職務内容・詳細を見る"):
-            col_l, col_r = st.columns(2)
-            with col_l:
-                st.markdown("**必要経験年数**")
-                st.write(f"{exp}年以上" if exp > 0 else "不明（または未経験可）")
-            with col_r:
-                st.markdown("**休日情報**")
-                st.write(row.get('holiday_text') or "取得できませんでした")
-            st.markdown("**求人票本文**")
-            st.text(row.get('description') or "")
+        with st.expander("休日情報の詳細"):
+            st.write(row.get('holiday_text') or "取得できませんでした")
