@@ -1,0 +1,25 @@
+# 環境変数
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# ログ
+*.log
+
+# DB・進捗ファイルはGitで管理する
+*.sqlite
+*.sqlite3
+!jobs.db
+!config/progress.json

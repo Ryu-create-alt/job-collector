@@ -1,0 +1,402 @@
+[
+  {
+    "company_name": "株式会社三菱UFJフィナンシャル・グループ",
+    "industry": "金融"
+  },
+  {
+    "company_name": "株式会社三井住友フィナンシャルグループ",
+    "industry": "金融"
+  },
+  {
+    "company_name": "株式会社みずほフィナンシャルグループ",
+    "industry": "金融"
+  },
+  {
+    "company_name": "ゆうちょ銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "三井住友トラスト・ホールディングス",
+    "industry": "金融"
+  },
+  {
+    "company_name": "りそなホールディングス",
+    "industry": "金融"
+  },
+  {
+    "company_name": "株式会社千葉銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "株式会社静岡銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "めぶきフィナンシャルグループ",
+    "industry": "金融"
+  },
+  {
+    "company_name": "楽天銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "東京海上ホールディングス",
+    "industry": "保険"
+  },
+  {
+    "company_name": "MS&ADインシュアランスグループホールディングス",
+    "industry": "保険"
+  },
+  {
+    "company_name": "SOMPOホールディングス",
+    "industry": "保険"
+  },
+  {
+    "company_name": "第一生命ホールディングス",
+    "industry": "保険"
+  },
+  {
+    "company_name": "T&Dホールディングス",
+    "industry": "保険"
+  },
+  {
+    "company_name": "かんぽ生命保険",
+    "industry": "保険"
+  },
+  {
+    "company_name": "アフラック生命保険",
+    "industry": "保険"
+  },
+  {
+    "company_name": "イオンフィナンシャルサービス株式会社",
+    "industry": "金融"
+  },
+  {
+    "company_name": "株式会社八十二銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "株式会社群馬銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "株式会社北洋銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "株式会社大垣共立銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "株式会社七十七銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "ソニーフィナンシャルグループ",
+    "industry": "金融"
+  },
+  {
+    "company_name": "あおぞら銀行",
+    "industry": "銀行"
+  },
+  {
+    "company_name": "日本製鉄株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "川崎重工業株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "株式会社神戸製鋼所",
+    "industry": "製造"
+  },
+  {
+    "company_name": "住友電気工業株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "東レ株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "旭化成株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "大日本印刷株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "LIXIL",
+    "industry": "製造"
+  },
+  {
+    "company_name": "ブリヂストン",
+    "industry": "製造"
+  },
+  {
+    "company_name": "コカ・コーラボトラーズジャパンホールディングス株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "山崎製パン株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "雪印メグミルク株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "三菱重工業",
+    "industry": "製造"
+  },
+  {
+    "company_name": "日立製作所",
+    "industry": "製造"
+  },
+  {
+    "company_name": "パナソニック ホールディングス",
+    "industry": "製造"
+  },
+  {
+    "company_name": "ソニーグループ",
+    "industry": "製造"
+  },
+  {
+    "company_name": "トヨタ自動車",
+    "industry": "製造"
+  },
+  {
+    "company_name": "本田技研工業",
+    "industry": "製造"
+  },
+  {
+    "company_name": "日産自動車",
+    "industry": "製造"
+  },
+  {
+    "company_name": "デンソー",
+    "industry": "製造"
+  },
+  {
+    "company_name": "キヤノン",
+    "industry": "製造"
+  },
+  {
+    "company_name": "富士フイルムホールディングス",
+    "industry": "製造"
+  },
+  {
+    "company_name": "キーエンス",
+    "industry": "製造"
+  },
+  {
+    "company_name": "ファナック",
+    "industry": "製造"
+  },
+  {
+    "company_name": "信越化学工業",
+    "industry": "製造"
+  },
+  {
+    "company_name": "味の素株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "アルプスアルパイン株式会社",
+    "industry": "製造"
+  },
+  {
+    "company_name": "TOTO",
+    "industry": "製造"
+  },
+  {
+    "company_name": "出光興産",
+    "industry": "製造"
+  },
+  {
+    "company_name": "ENEOSホールディングス",
+    "industry": "製造"
+  },
+  {
+    "company_name": "JFEホールディングス",
+    "industry": "製造"
+  },
+  {
+    "company_name": "東京エレクトロン",
+    "industry": "製造"
+  },
+  {
+    "company_name": "村田製作所",
+    "industry": "製造"
+  },
+  {
+    "company_name": "日本電産",
+    "industry": "製造"
+  },
+  {
+    "company_name": "HOYA",
+    "industry": "製造"
+  },
+  {
+    "company_name": "株式会社良品計画",
+    "industry": "小売"
+  },
+  {
+    "company_name": "株式会社ビックカメラ",
+    "industry": "小売"
+  },
+  {
+    "company_name": "株式会社ライフコーポレーション",
+    "industry": "小売"
+  },
+  {
+    "company_name": "株式会社パン・パシフィック・インターナショナルホールディングス",
+    "industry": "小売"
+  },
+  {
+    "company_name": "株式会社ツルハホールディングス",
+    "industry": "小売"
+  },
+  {
+    "company_name": "ニトリホールディングス株式会社",
+    "industry": "小売"
+  },
+  {
+    "company_name": "セブン&アイ・ホールディングス",
+    "industry": "小売"
+  },
+  {
+    "company_name": "イオン",
+    "industry": "小売"
+  },
+  {
+    "company_name": "ファーストリテイリング",
+    "industry": "小売"
+  },
+  {
+    "company_name": "ヤマダホールディングス",
+    "industry": "小売"
+  },
+  {
+    "company_name": "エディオン",
+    "industry": "小売"
+  },
+  {
+    "company_name": "マツキヨココカラ&カンパニー",
+    "industry": "小売"
+  },
+  {
+    "company_name": "高島屋",
+    "industry": "小売"
+  },
+  {
+    "company_name": "三越伊勢丹ホールディングス",
+    "industry": "小売"
+  },
+  {
+    "company_name": "DCMホールディングス株式会社",
+    "industry": "小売"
+  },
+  {
+    "company_name": "日本テレビホールディングス",
+    "industry": "メディア"
+  },
+  {
+    "company_name": "TBSホールディングス",
+    "industry": "メディア"
+  },
+  {
+    "company_name": "フジ・メディア・ホールディングス",
+    "industry": "メディア"
+  },
+  {
+    "company_name": "電通グループ",
+    "industry": "メディア"
+  },
+  {
+    "company_name": "日本電信電話株式会社",
+    "industry": "通信"
+  },
+  {
+    "company_name": "KDDI株式会社",
+    "industry": "通信"
+  },
+  {
+    "company_name": "ソフトバンク株式会社",
+    "industry": "通信"
+  },
+  {
+    "company_name": "GMOインターネットグループ株式会社",
+    "industry": "通信"
+  },
+  {
+    "company_name": "東京電力ホールディングス",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "関西電力",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "中部電力",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "北海道電力株式会社",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "JR東日本",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "JR東海",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "JR西日本",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "東京ガス",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "大阪ガス",
+    "industry": "インフラ"
+  },
+  {
+    "company_name": "日本郵船",
+    "industry": "物流"
+  },
+  {
+    "company_name": "商船三井",
+    "industry": "物流"
+  },
+  {
+    "company_name": "日本通運",
+    "industry": "物流"
+  },
+  {
+    "company_name": "ヤマトホールディングス",
+    "industry": "物流"
+  },
+  {
+    "company_name": "SGホールディングス",
+    "industry": "物流"
+  },
+  {
+    "company_name": "鴻池運輸株式会社",
+    "industry": "物流"
+  },
+  {
+    "company_name": "三菱倉庫",
+    "industry": "物流"
+  },
+  {
+    "company_name": "三井倉庫ホールディングス",
+    "industry": "物流"
+  }
+]
