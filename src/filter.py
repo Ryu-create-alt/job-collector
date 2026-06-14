@@ -153,6 +153,32 @@ def check_network_engineer(title, desc_text):
             
     return is_nw
 
+def parse_experience_years(text: str) -> int:
+    """求人テキストから必要最低経験年数を抽出します。不明・未経験可は 0 を返します。"""
+    if not text:
+        return 0
+    cleaned = clean_text(text)
+
+    if any(kw in cleaned for kw in ["未経験可", "未経験歓迎", "未経験者歓迎", "未経験ok"]):
+        return 0
+
+    patterns = [
+        r"実務経験\s*(\d+)\s*年以上",
+        r"業務経験\s*(\d+)\s*年以上",
+        r"経験\s*(\d+)\s*年以上",
+        r"(\d+)\s*年以上\s*(?:の)?\s*(?:実務|業務)?経験",
+        r"経験年数\s*[:：]?\s*(\d+)\s*年以上",
+    ]
+    years = []
+    for pattern in patterns:
+        for m in re.finditer(pattern, cleaned):
+            try:
+                years.append(int(m.group(1)))
+            except ValueError:
+                pass
+    return min(years) if years else 0
+
+
 def extract_prefecture(location_text):
     """勤務地テキストから都道府県を抽出します。"""
     if not location_text:
